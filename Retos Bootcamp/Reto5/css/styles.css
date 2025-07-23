@@ -156,10 +156,19 @@ footer {
     .layout-grid{
         grid-template-columns: 1fr;
         grid-template-areas:
-            "header"
             "sidebar"
-            "item"
             "main"
             "footer";
+        .portfolio{
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "item1"
+                "item2"
+                "item3"
+                "item4"
+                "item5";
+            padding-bottom: 50px;
+
+        }
     }
 }
