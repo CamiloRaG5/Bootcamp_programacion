@@ -31,12 +31,11 @@ main{
     margin-bottom: 30px;
 }
 
-section {
+.content1, .content2, .content3 {
     background-color: white;
     border-radius: 20px;
     padding: 30px;
     padding-top: 10px;
-    margin-bottom: 20px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -53,13 +52,24 @@ img {
     margin: 10px auto;
 }
 
-ul {
+.sidebar ul {
     list-style-type: none;
 }
+.sidebar ul li a{
+    text-decoration: none;
+    color: #fff9;
+    transition: 0.3s;
+}
 
+.sidebar ul li a:hover{
+    color: #fff;
+}
+.sidebar h2{
+    color: #fff;
+}
 footer {
-    background-color: rgba(37, 191, 230, 0.39);
-    color: #406a6b;
+    background-color:rgb(80, 133, 134);
+    color: #fff;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -96,7 +106,7 @@ footer {
     grid-template-columns: 1fr 2fr 2fr;
     grid-template-rows: auto 1fr 1fr auto;
     margin-top: 0;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     gap: 20px;
     padding: 20px;
     grid-template-areas: 
@@ -109,7 +119,7 @@ footer {
     /* Ajustar la ubicación de todos los elementos del diseño usando los "grid-area" que les correspoden.*/
 .sidebar{
     grid-area: sidebar;
-    background-color: rgb(204, 238, 240);
+    background-color: rgb(73, 149, 153);
     border-radius: 10px;
     box-shadow: 0 4px 8px 0;
 }
