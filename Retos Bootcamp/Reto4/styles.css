@@ -133,3 +133,16 @@ footer {
 .content3{
     grid-area: content3;
 }
+
+@media (max-width: 768px) {
+    .layout-grid{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "sidebar"
+            "content1"
+            "content2"
+            "content3"
+            "footer";
+    }
+}
