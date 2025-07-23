@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(156, 221, 221);
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: cadetblue;
+    margin: 0;
+    color: white;
+    padding: 20px ;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(168, 96, 96);
+    text-align: center;
+}
+
+
+
+main{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.content1, .content2, .content3 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    padding-top: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+p, li {
+    font-size: 1.2em;
+    color: rgba(7, 8, 7, 0.74);
+}
+
+img {
+    max-width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    display: block; 
+    margin: 10px auto;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: #fff9;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover{
+    color: #fff;
+}
+.sidebar h2{
+    color: #fff;
+}
+footer {
+    background-color:rgb(80, 133, 134);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.email_link {
+    color: rgb(0, 71, 71);
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1; /*Hace que un elemento ocupe el espacio disponible*/
+    min-width: 250px; /*Ancho minimo de la pagina*/
+    background-color: rgba(91, 158, 160, 0.541);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+    margin: 5px;
+}
+
+.layout-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto 1fr 1fr auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    gap: 20px;
+    padding: 20px;
+    grid-template-areas: 
+        "header header header"
+        "sidebar content1 content2"
+        "sidebar content3 content3"
+        "footer footer footer";
+}
+
+    /* Ajustar la ubicación de todos los elementos del diseño usando los "grid-area" que les correspoden.*/
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(73, 149, 153);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0;
+}
+
+.content1{
+    grid-area: content1;
+}
+.content2{
+    grid-area: content2;
+}
+.content3{
+    grid-area: content3;
+}
+
+@media (max-width: 768px) {
+    .layout-grid{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "sidebar"
+            "content1"
+            "content2"
+            "content3"
+            "footer";
+    }
+}
