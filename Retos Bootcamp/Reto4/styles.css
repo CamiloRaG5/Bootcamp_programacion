@@ -96,7 +96,9 @@ footer {
     grid-template-columns: 1fr 2fr 2fr;
     grid-template-rows: auto 1fr 1fr auto;
     margin-top: 0;
-    
+    margin-bottom: 80px;
+    gap: 20px;
+    padding: 20px;
     grid-template-areas: 
         "header header header"
         "sidebar content1 content2"
