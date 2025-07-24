@@ -26,7 +26,7 @@ body{
     max-width: 600px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-
+    margin-bottom: 60px;
 }
 
 form fieldset{
@@ -49,12 +49,41 @@ select{
     box-sizing: border-box;
     border-radius: 4px;
     padding: 8px;
-    border-width: 1px;
+    border: 1px solid #666;
+
 }
 
-footer{
-    background-color: #006bb3;
+select{
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    margin-left: 15px;
+    margin-right: 5px;
+        cursor: pointer;
+}
+
+button[type="submit"]{
+    background-color: #005994;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button[type="submit"]:hover{
+    background-color: #3085bd;
+}
+
+.footer{
+    background-color: #005994;
     color: white;
     text-align: center;
+    padding: 4px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
