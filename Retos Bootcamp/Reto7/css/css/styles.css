@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6f7ff;
+    color: #333;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header{
+    background-color: #006bb3;
+    color: whitesmoke;
+    text-align: center;
+}
+.header h1{
+    font-size: 1.7em;
+}
+
+.form-container{
+    flex: 1;
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+form fieldset{
+    border: 2px solid #006bb3;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+form fieldset legend{
+    display: block;
+    color: #006bb3;
+    font-weight: bold;
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="number"],
+select{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px;
+    border-width: 1px;
+}
+
+footer{
+    background-color: #006bb3;
+    color: white;
+    text-align: center;
+}
+

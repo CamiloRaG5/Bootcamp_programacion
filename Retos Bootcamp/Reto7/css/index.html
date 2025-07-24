@@ -7,11 +7,11 @@
     <title>Encuesta Sobre Consumo Energético</title>
 </head>
 <body>
-    <header>
-        <h1>Encuesta Sobre Consumo Energético</h1>
+    <header class="header">
+        <h1>Encuesta Sobre Consumo Energético 📋<h1>
     </header>
-    <main>
-        <form action="" method="POST">
+    <main class="form-container">
+        <form action="https://formspree.io/f/{form_id}" method="POST">
             <!-- GRUPO INFORMACIÓN PERSONAL -->
             <fieldset>
                 <legend>Información Personal</legend>
@@ -22,8 +22,9 @@
                 <label for="location">Ubicación (Ciudad/país):</label>
                 <input type="text" name="addres" id="addres" required placeholder="Ingrese su ubicación">
             </fieldset>
-            <fieldset>
+
             <!-- GRUPO CONSUMO ENERGÉTICO ACTUAL -->
+            <fieldset>
                 <legend>Consumo Energético Actual</legend>
                 <label for="energy_source">Fuentes de Energía</label>
                 <select name="energy_source" id="energy_source" required>
@@ -42,15 +43,28 @@
                     min="100"
                     title="El consumo promedio por hogar en Colombia es de 157 Kw">
             </fieldset>
+
             <!-- GRUPO INTERÉS EN ENERGÍAS RENOVABLES -->
             <fieldset>
                 <legend>Interés en Energías Renovables</legend>
-                
+                <label for="interest_level">Nivel de Interés en Energías Renovables</label>
+                <select name="interest_level" id="interest_level" required>
+                    <option value="">Seleccione una opción</option>
+                    <option value="high">Alto</option>
+                    <option value="mid">Medio</option>
+                    <option value="low">Bajo</option>
+                </select>
+                <label for="adoption_interest">Disposición a Adoptar Energías Renovables</label>
+                <input type="radio" name="adoption_interest" id="yes" value="si" required>Si
+                <input type="radio" name="adoption_interest" id="no" value="no">No
             </fieldset>
+
+            <button type="submit">Enviar Encuesta</button>
+
         </form>
     </main>
     <footer>
-
+        Gracias por apoyar esta encuesta y la transición hacias energías más sostenibles.
     </footer>
 </body>
 </html>
