@@ -28,3 +28,11 @@ body{
 #showBtn:hover{
     background-color: cadetblue;
 }
+
+#outputBox{
+    margin: 20px 50px;
+    padding: 10px;
+    background-color: rgb(47, 138, 138);
+    font-size: x-large;
+
+}
