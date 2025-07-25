@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+#inputBox{
+    padding: 10px;
+    width: 50%;
+}
+
+#showBtn{
+    background-color: rgb(11, 109, 76);
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    transition: 0.3s;
+    color: white;
+}
+
+#showBtn:hover{
+    background-color: cadetblue;
+}
