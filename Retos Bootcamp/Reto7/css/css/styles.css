@@ -50,7 +50,6 @@ select{
     border-radius: 4px;
     padding: 8px;
     border: 1px solid #666;
-
 }
 
 select{
@@ -86,4 +85,3 @@ button[type="submit"]:hover{
     bottom: 0;
     width: 100%;
 }
-
