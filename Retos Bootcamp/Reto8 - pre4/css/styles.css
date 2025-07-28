@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(228, 227, 227);
+}
+
+.header{
+    margin-bottom: 80px;
+}
+
+#number1, #number2{
+    padding: 5px;
+    margin: 5px;
+    width: 20%;
+    border-radius: 5px
+}
+
+
+#resultText{
+    margin: 30px;
+    font-weight: bold;
+}
+
+.button-container{
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+}
+
+#addButton:hover{
+    background-color: rgb(45, 146, 177); 
+}
