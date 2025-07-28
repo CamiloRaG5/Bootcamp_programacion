@@ -4,9 +4,16 @@ document.addEventListener('DOMContentLoaded', function(){
     const addButton = document.getElementById('addButton');
     const resultText = document.getElementById('resultText');
     addButton.addEventListener('click', function () {
-        const num1 = Number(number1.value);
-        const num2 = Number(number2.value);
-        let result = num1 + num2;
-        resultText.textContent = `El resultado es: ${result}`;
+        const num1 = number1.value.trim();
+        const num2 = number2.value.trim();
+        if(num1 === '' || num2 === '' || isNaN(Number(num1)) || isNaN(Number(num2))){
+            resultText.textContent = 'Eso no es un número, Ingrese un valor valido.';
+            return;
+        }
+        else{
+            let result = Number(num1) + Number(num2);
+            resultText.textContent = `El resultado es: ${result}`;
+        };   
+
     });
 });
