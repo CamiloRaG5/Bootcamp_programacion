@@ -66,9 +66,12 @@ body{
 }
 
 canvas{
-    max-width: 80%;
+    max-width: 100%;
+    min-width: 50%;
+    height: 80%;
     display: grid;
     margin: 10px auto;
+    padding: 0;
 }
 
 .footer{
@@ -82,3 +85,4 @@ canvas{
 .email_link{
     text-decoration: none;
 }
+
