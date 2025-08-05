@@ -1,0 +1,58 @@
+[
+  {
+    "empresa": "EMPRESA DE ENERGIA DEL BAJO PUTUMAYO  S.A.  E.S.P.",
+    "frecuencia": 1
+  },
+  {
+    "empresa": "EMPRESA DE ENERGIA DEL  QUINDIO S.A.E.S.P.",
+    "frecuencia": 1
+  },
+  {
+    "empresa": "COMPAÑÍA DE ELECTRICIDAD DE TULUÁ S.A. E.S.P.",
+    "frecuencia": 2
+  },
+  {
+    "empresa": "EMPRESA DISTRIBUIDORA DEL PACIFICO S.A. E.S.P",
+    "frecuencia": 3
+  },
+  {
+    "empresa": "CODENSA S.A. ESP",
+    "frecuencia": 7
+  },
+  {
+    "empresa": "EMPRESA DE ENERGÍA DE PEREIRA S.A. ESP.",
+    "frecuencia": 11
+  },
+  {
+    "empresa": "CENTRALES ELECTRICAS DEL NORTE DE SANTANDER S.A. ESP",
+    "frecuencia": 11
+  },
+  {
+    "empresa": "ELECTRIFICADORA DEL META S.A. E.S.P.",
+    "frecuencia": 11
+  },
+  {
+    "empresa": "EMPRESAS MUNICIPALES DE CALI   E.I.C.E  E.S.P",
+    "frecuencia": 12
+  },
+  {
+    "empresa": "COMPAÑIA ENERGETICA DE OCCIDENTE S.A.S.  E.S.P.",
+    "frecuencia": 15
+  },
+  {
+    "empresa": "ELECTRIFICADORA DE SANTANDER S.A. E.S.P.",
+    "frecuencia": 20
+  },
+  {
+    "empresa": "ELECTRIFICADORA DEL HUILA S.A. E.S.P.",
+    "frecuencia": 23
+  },
+  {
+    "empresa": "EMPRESAS PÚBLICAS DE MEDELLIN E.S.P.",
+    "frecuencia": 30
+  },
+  {
+    "empresa": "ELECTRIFICADORA DEL CARIBE S.A. E.S.P.",
+    "frecuencia": 83
+  }
+]
