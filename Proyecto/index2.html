@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contaminación de CO2 de taxis</title>
+</head>
+<body>
+    <header>
+        <h1>Contaminación de CO₂ en Colombia</h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#Motos">Motos</a></li>
+            <li><a href="#Carros">Carros</a></li>
+            <li><a href="#Taxis">Taxis</a></li>
+            <li><a href="#Buses">Buses</a></li>
+            <li><a href="#Vehiculos_de_Carga">Vehiculos de Carga</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="main-conter">
+    <!-- seccion de motos -->
+        <section class="section" id="Motos"> 
+            <h2>Emisiones de CO₂ de una moto promedio en Colombia</h2>
+            <p>
+               Aunque las motos representan una alternativa ágil y económica de transporte, su impacto ambiental ha sido creciente. Entre 2020 y 2025, las emisiones de CO₂ generadas por las motocicletas en Colombia aumentaron de 0.85 millones de toneladas a 1.13 millones de toneladas. Este crecimiento refleja tanto el aumento en el parque motociclista como la necesidad de repensar su eficiencia energética y sus implicaciones ambientales dentro del sistema de movilidad urbana.  
+            </p>
+            
+            <canvas class="grafico" id="GraficoMotos"></canvas>
+        </section>
+
+    <!-- seccion Carros -->
+            <section class="section" id="Carros"> 
+            <h2>Emisiones de CO₂ de un carro promedio en Colombia</h2>
+            <p>
+                El uso de vehículos particulares sigue siendo uno de los factores clave en la emisión de gases de efecto invernadero. En Colombia, las emisiones de CO₂ asociadas a carros particulares aumentaron de 9.92 millones de toneladas en 2020 a 14.62 millones en 2025. Este crecimiento pone en evidencia la expansión del parque automotor privado y resalta la importancia de promover alternativas de movilidad sostenibles y de menor impacto ambiental.
+            </p>
+            <canvas class="grafico" id="GraficoCarros"></canvas>
+        </section>
+
+    <!-- seccion Taxis -->
+                <section class="section" id="Taxis"> 
+            <h2>Emisiones de CO₂ de un taxi promedio en Colombia</h2>
+            <p>
+                Un taxi convencional en ciudades colombianas emite alrededor de 24,8 toneladas de CO₂ al año, considerando trayectos urbanos con frenadas frecuentes e idling prolongado. Esto hace que este tipo de vehículo tenga un impacto significativo dentro del sector transporte en términos de huella climática.
+            </p>
+            <p>
+                En escenarios con conducción eficiente (ecodriving) y sistemas start-stop, las emisiones pueden reducirse hasta 3,7 t CO₂ al año, es decir, cerca de un 15 % menos respecto al baseline 
+En Colombia, el sector transporte generó en 2023 cerca de 36,7 millones de toneladas de CO₂ equivalentes, representando una parte significativa de las emisiones nacionales
+            </p>
+            <canvas class="grafico" id="GraficoTaxis"></canvas>
+        </section>
+
+        <!-- seccion buses -->
+
+                <section class="section" id="Buses"> 
+            <h2>Emisiones de CO₂ de un bus promedio en Colombia</h2>
+            <p>
+                El transporte público, especialmente los buses, desempeña un papel fundamental en la movilidad urbana. Sin embargo, sus emisiones de CO₂ han mostrado un aumento, pasando de 7.48 millones de toneladas en 2020 a 11.02 millones en 2025. Este crecimiento refleja una mayor demanda del servicio, pero también evidencia la necesidad de acelerar la transición hacia sistemas de transporte público más limpios, como buses eléctricos o de bajas emisiones.
+            </p>
+            <canvas class="grafico" id="GraficoBuses"></canvas>
+        </section>
+
+        <!-- seccion Vehiculos de carga -->
+
+                <section class="section" id="Vehiculos_de_Carga"> 
+            <h2>Emisiones de CO₂ de un vehiculo de carga promedio en Colombia</h2>
+            <p>
+                Los vehículos de carga han sido una de las principales fuentes de emisiones en el sector transporte. Entre 2020 y 2025, sus emisiones de CO₂ aumentaron de 13.96 a 19.52 millones de toneladas. Este incremento sostenido refleja la alta dependencia del transporte terrestre para el movimiento de mercancías en el país, destacando la urgencia de migrar hacia tecnologías más limpias y sistemas logísticos más eficientes.
+
+            </p>
+
+            <canvas class="grafico" id="GraficoVehiculodeCarga"></canvas>
+        </section>
+
+
+
+    </div>
+<footer><p>Creado por Juan Pablo Echandia, Camilo y Diego. Como proyecto final del Bootcamp</p></footer>
+
+
+
+    
+</body>
+</html>
