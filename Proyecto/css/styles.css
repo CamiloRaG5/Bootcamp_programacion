@@ -36,3 +36,18 @@ body{
     text-align: center;
     margin-top: 0;
 }
+
+    
+
+.main-conter {
+    display:grid;
+    gap: 15px;
+    margin-right: 20px;
+    margin-left: 300px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    grid-template-areas: 
+      'texto, GraficoMotos';
+    
+}
+    
