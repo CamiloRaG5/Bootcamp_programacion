@@ -1,0 +1,53 @@
+[
+  {
+    "Anno": 2020,
+    "vehiculo": "Motos",
+    "Total país CO2 (Mt)": 80.865,
+    "Transporte total (Mt)": 33.2,
+    "Vehiculos de Carga (Mt)": 13.96,
+    "Transporte público (Mt)": 7.48,
+    "Carros particulares (Mt)": 9.92,
+    "Taxis (Mt)": 1.99,
+    "Motos (Mt)": 0.85
+  },
+  {
+    "Anno": 2021,
+    "Total país CO2 (Mt)": 87.948,
+    "Transporte total (Mt)": 36.06,
+    "Vehiculos de Carga (Mt)": 15.15,
+    "Transporte público (Mt)": 8.12,
+    "Carros particulares (Mt)": 10.76,
+    "Taxis (Mt)": 2.15,
+    "Motos (Mt)": 0.91
+  },
+  {
+    "Anno": 2022,
+    "Total país CO2 (Mt)": 91.761,
+    "Transporte total (Mt)": 37.62,
+    "Vehiculos de Carga (Mt)": 15.8,
+    "Transporte público (Mt)": 8.49,
+    "Carros particulares (Mt)": 11.24,
+    "Taxis (Mt)": 2.25,
+    "Motos (Mt)": 0.95
+  },
+  {
+    "Anno": 2023,
+    "Total país CO2 (Mt)": 100.863,
+    "Transporte total (Mt)": 41.36,
+    "Vehiculos de Carga (Mt)": 17.38,
+    "Transporte público (Mt)": 9.34,
+    "Carros particulares (Mt)": 12.37,
+    "Taxis (Mt)": 2.47,
+    "Motos (Mt)": 1.04
+  },
+  {
+    "Anno": 2024,
+    "Total país CO2 (Mt)": 110,
+    "Transporte total (Mt)": 45.1,
+    "Vehiculos de Carga (Mt)": 18.95,
+    "Transporte público (Mt)": 10.17,
+    "Carros particulares (Mt)": 13.49,
+    "Taxis (Mt)": 2.7,
+    "Motos (Mt)": 1.13
+  }
+]

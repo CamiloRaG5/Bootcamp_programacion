@@ -14,6 +14,12 @@ async function cargarDatos(){
         const estado = item.frecuencia >= 15 ? '⚠Grave' : '🔴Crítico';
         tdEstado.textContent = estado;
 
+        if(item.frecuencia >= 15){
+            tdFrecuencia.style.color = 'red';
+            tdFrecuencia.style.fontWeight = 'bold';
+            tdEmpresa.style.color = 'red';
+            tdEstado.style.color = 'red';
+        }
         tr.appendChild(tdEmpresa);
         tr.appendChild(tdFrecuencia);
         tr.appendChild(tdEstado);

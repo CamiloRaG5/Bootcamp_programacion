@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Reto Choco 🍫 Jumbo</title>
 </head>
 <body>
     <h1>Muertes por Accidente eléctrico vs. Empresas de Enérgia</h1>
-    <table border="1">
+    <table class="tabla">
+        <canvas id="grafico">
+        </canvas>
         <thead>
             <tr>
                 <th>Empresa</th>
@@ -20,5 +23,6 @@
         </tbody>
     </table>
     <script src="js/scripts.js"></script>
+    <script src="js/grafico.js"></script>
 </body>
 </html>
