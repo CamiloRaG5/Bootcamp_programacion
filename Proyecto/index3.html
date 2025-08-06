@@ -25,27 +25,32 @@
     <div class="cuadricula">
         <section class="content_1">
             <h3>🏍️Motos</h3>
+            <p>La cantidad promedio de emisiones de CO₂ para las motos en un año es: 0.98 Mt CO₂ </p>
             <input type="number" id="motos" placeholder="Ingrese la cantidad de motos" min="0" class="cantidad">
         </section>        
         <section class="content_2">
             <h3>🚘Carros</h3>
+            <p>La cantidad promedio de emisiones de CO₂ para los carros en un año es: 11.56 Mt CO₂</p>
             <input type="number" id="carros" placeholder="Ingrese la cantidad de carros" min="0" class="cantidad">
         </section>
         <section class="content_3">
             <h3>🚕Taxis </h3>
+            <p>La cantidad promedio de emisiones de CO₂ para los taxis en un año es:  23.12 Mt CO₂</p>
             <input type="number" id="taxis" placeholder="Ingrese la cantidad de taxis" min="0" class="cantidad">
         </section>
         <section class="content_4">
             <h3>🚌Buses</h3>
+            <p>La cantidad promedio de emisiones de CO₂ para los buses en un año es: 8.72 Mt CO₂</p>
             <input type="number" id="buses" placeholder="Ingrese la cantidad de buses" min="0" class="cantidad">
         </section>
         <section class="content_5">
             <h3>🚛Vehículos de Carga</h3>
+            <p>La cantidad promedio de emisiones de CO₂ para los vehículos de carga en un año es: 16.25 Mt CO₂</p>
             <input type="number" id="vehiculos" placeholder="Ingrese la cantidad de vehículos de carga" min="0" class="cantidad">
         </section>
         <div class="resultado"> 
             <label for="annos">📆Cantidad de años</label>
-            <input class="annos" type="number" min="1" required name="annos" placeholder="Ingrese la cantidad de años">
+            <input id="annos" type="number" min="1"  name="annos" placeholder="Ingrese la cantidad de años" required>
             <button id="calculateButton" type="submit">Calcular</button>
             <div id="resultText"></div>
         </div>
@@ -55,5 +60,6 @@
         Creado por Juan Pablo Echandia, Camilo Ramirez y Diego Valle. Como proyecto final del Bootcamp
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/scriptsGrafico.js"></script>
 </body>
 </html>
