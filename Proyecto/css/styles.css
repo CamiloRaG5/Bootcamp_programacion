@@ -10,7 +10,9 @@ body{
     margin-top: 0;
     padding: 10px;
 }
-
+h2{
+    text-align: center;
+}
 .navBar{
     background-color: #025b97;
     padding: 1px;
@@ -40,14 +42,9 @@ body{
     
 
 .main-conter {
-    display:grid;
-    gap: 15px;
-    margin-right: 20px;
-    margin-left: 300px;
-    margin-bottom: 60px;
-    margin-top: 20px;
-    grid-template-areas: 
-      'texto, GraficoMotos';
+    margin: auto;
+    padding: 20px;
+    max-width: 1200px;
     
 }
 .cuadricula{
@@ -125,4 +122,45 @@ button[type="submit"]{
 }
 button[type="submit"]:hover{
     background-color: #3085bd;
+}
+p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0,3s, box-shadow 0.3s;
+}
+
+.section:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-principal{
+    display: flex;
+    gap: 30px;
+}
+
+.contenedor-texto{
+    flex: 1;
+}
+
+.contenedor-grafico{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grafico{
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
 }
