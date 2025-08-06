@@ -38,14 +38,17 @@
             <input type="number" id="buses" placeholder="Ingrese la cantidad de buses" min="0" class="cantidad">
         </section>
         <section class="content_5">
-            <h3>🛻Vehículos de Carga</h3>
+            <h3>🚛Vehículos de Carga</h3>
             <input type="number" id="vehiculos" placeholder="Ingrese la cantidad de vehículos de carga" min="0" class="cantidad">
         </section>
         <div class="resultado"> 
-            <button id="addBotton" type="submit">Calcular</button>
-            <div class="resultText"></div>
+            <label for="annos">📆Cantidad de años</label>
+            <input class="annos" type="number" min="1" required name="annos" placeholder="Ingrese la cantidad de años">
+            <button id="calculateButton" type="submit">Calcular</button>
+            <div id="resultText"></div>
         </div>
 
     </div>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
