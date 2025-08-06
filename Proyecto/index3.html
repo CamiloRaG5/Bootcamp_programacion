@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Proyecto</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Contaminacion de CO₂ en Colombia</h1>
+    </header>
+    <nav class="navBar">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Motos</a></li>
+            <li><a href="#">Carros</a></li>
+            <li><a href="#">Taxis</a></li>
+            <li><a href="#">Buses</a></li>
+            <li><a href="#">Vehículos de Carga</a></li>
+        </ul>
+    </nav>
+    <div class="cuadricula">
+        <section class="content_1">
+            <h3>🏍️Motos</h3>
+            <input type="number" id="motos" placeholder="Ingrese la cantidad de motos" min="0" class="cantidad">
+        </section>        
+        <section class="content_2">
+            <h3>🚘Carros</h3>
+            <input type="number" id="carros" placeholder="Ingrese la cantidad de carros" min="0" class="cantidad">
+        </section>
+        <section class="content_3">
+            <h3>🚕Taxis </h3>
+            <input type="number" id="taxis" placeholder="Ingrese la cantidad de taxis" min="0" class="cantidad">
+        </section>
+        <section class="content_4">
+            <h3>🚌Buses</h3>
+            <input type="number" id="buses" placeholder="Ingrese la cantidad de buses" min="0" class="cantidad">
+        </section>
+        <section class="content_5">
+            <h3>🛻Vehículos de Carga</h3>
+            <input type="number" id="vehiculos" placeholder="Ingrese la cantidad de vehículos de carga" min="0" class="cantidad">
+        </section>
+        <div class="resultado"> 
+            <button id="addBotton" type="submit">Calcular</button>
+            <div class="resultText"></div>
+        </div>
+
+    </div>
+</body>
+</html>
