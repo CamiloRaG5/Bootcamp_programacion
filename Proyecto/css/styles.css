@@ -57,6 +57,7 @@ h2{
     
 }
 .cuadricula{
+    font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 3fr 1fr;
@@ -114,6 +115,11 @@ h2{
     width: 80%; 
     max-width: 800px; 
 }
+
+.resultado label{
+    font-size: larger;
+}
+
 input[type="number"],
 select{
     width: 100%;
@@ -121,6 +127,7 @@ select{
     border-radius: 4px;
     padding: 8px;
     border: 1px solid #666;
+    margin-top: 20px;
 }
 button[type="submit"]{
     background-color: #005994;
@@ -131,6 +138,7 @@ button[type="submit"]{
     font-size: 1.2em;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-top: 20px;
 }
 button[type="submit"]:hover{
     background-color: #3085bd;
@@ -142,6 +150,9 @@ button[type="submit"]:hover{
 }
 label{
     font-weight: bold;
+}
+#annos{
+    margin: 20px;
 }
 p{
     text-align: justify;
