@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-    fetch('csv_proyecto/csvjson.json')
+    fetch('data/contaminacion_vehicular.json')
     .then(response => response.json())
     .then(data => {
         console.log(data)
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function(){
         });
     });
 
-    fetch('csv_proyecto/csvjson.json')
+    fetch('data/contaminacion_vehicular.json')
     .then(response => response.json())
     .then(data => {
         console.log(data)
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function(){
         });
     });
 
-    fetch('csv_proyecto/csvjson.json')
+    fetch('data/contaminacion_vehicular.json')
     .then(response => response.json())
     .then(data => {
         console.log(data)
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function(){
         });
     });
 
-    fetch('csv_proyecto/csvjson.json')
+    fetch('data/contaminacion_vehicular.json')
     .then(response => response.json())
     .then(data => {
         console.log(data)
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function(){
         });
     });
 
-    fetch('csv_proyecto/csvjson.json')
+    fetch('data/contaminacion_vehicular.json')
     .then(response => response.json())
     .then(data => {
         console.log(data)
