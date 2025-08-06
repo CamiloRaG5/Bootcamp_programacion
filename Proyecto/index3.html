@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Proyecto</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Contaminacion de CO₂ en Colombia</h1>
+    </header>
+    <nav class="navBar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index2.html">Motos</a></li>
+            <li><a href="index2.html">Carros</a></li>
+            <li><a href="index2.html">Taxis</a></li>
+            <li><a href="index2.html">Buses</a></li>
+            <li><a href="index2.html">Vehículos de Carga</a></li>
+            <li><a href="index3.html">Calculadora</a></li>
+        </ul>
+    </nav>
+    <div class="cuadricula">
+        <section class="content_1">
+            <h3>🏍️Motos</h3>
+            <input type="number" id="motos" placeholder="Ingrese la cantidad de motos" min="0" class="cantidad">
+        </section>        
+        <section class="content_2">
+            <h3>🚘Carros</h3>
+            <input type="number" id="carros" placeholder="Ingrese la cantidad de carros" min="0" class="cantidad">
+        </section>
+        <section class="content_3">
+            <h3>🚕Taxis </h3>
+            <input type="number" id="taxis" placeholder="Ingrese la cantidad de taxis" min="0" class="cantidad">
+        </section>
+        <section class="content_4">
+            <h3>🚌Buses</h3>
+            <input type="number" id="buses" placeholder="Ingrese la cantidad de buses" min="0" class="cantidad">
+        </section>
+        <section class="content_5">
+            <h3>🛻Vehículos de Carga</h3>
+            <input type="number" id="vehiculos" placeholder="Ingrese la cantidad de vehículos de carga" min="0" class="cantidad">
+        </section>
+        <div class="resultado"> 
+            <button id="addBotton" type="submit">Calcular</button>
+            <div class="resultText"></div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        Creado por Juan Pablo Echandia, Camilo Ramirez y Diego Valle. Como proyecto final del Bootcamp
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
