@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Contaminación de CO2 de taxis</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>Contaminación de CO₂ en Colombia</h1>
     </header>
-    <nav class="navbar">
+    <nav class="navBar">
         <ul>
-            <li><a href="#Inicio">Inicio</a></li>
-            <li><a href="#Motos">Motos</a></li>
-            <li><a href="#Carros">Carros</a></li>
-            <li><a href="#Taxis">Taxis</a></li>
-            <li><a href="#Buses">Buses</a></li>
-            <li><a href="#Vehiculos_de_Carga">Vehiculos de Carga</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index2.html#Motos">Motos</a></li>
+            <li><a href="index2.html#Carros">Carros</a></li>
+            <li><a href="index2.html#Taxis">Taxis</a></li>
+            <li><a href="index2.html#Buses">Buses</a></li>
+            <li><a href="index2.html#Vehiculos_de_Carga">Vehículos de Carga</a></li>
+            <li><a href="index3.html">Calculadora</a></li>
         </ul>
 
     </nav>
@@ -49,8 +51,7 @@
                 Un taxi convencional en ciudades colombianas emite alrededor de 24,8 toneladas de CO₂ al año, considerando trayectos urbanos con frenadas frecuentes e idling prolongado. Esto hace que este tipo de vehículo tenga un impacto significativo dentro del sector transporte en términos de huella climática.
             </p>
             <p>
-                En escenarios con conducción eficiente (ecodriving) y sistemas start-stop, las emisiones pueden reducirse hasta 3,7 t CO₂ al año, es decir, cerca de un 15 % menos respecto al baseline 
-En Colombia, el sector transporte generó en 2023 cerca de 36,7 millones de toneladas de CO₂ equivalentes, representando una parte significativa de las emisiones nacionales
+                En escenarios con conducción eficiente (ecodriving) y sistemas start-stop, las emisiones pueden reducirse hasta 3,7 t CO₂ al año, es decir, cerca de un 15 % menos respecto al baseline En Colombia, el sector transporte generó en 2023 cerca de 36,7 millones de toneladas de CO₂ equivalentes, representando una parte significativa de las emisiones nacionales
             </p>
             <canvas class="grafico" id="GraficoTaxis"></canvas>
         </section>
@@ -77,13 +78,10 @@ En Colombia, el sector transporte generó en 2023 cerca de 36,7 millones de tone
             <canvas class="grafico" id="GraficoVehiculodeCarga"></canvas>
         </section>
 
-
-
     </div>
-<footer><p>Creado por Juan Pablo Echandia, Camilo Ramirez y Diego Valle. Como proyecto final del Bootcamp</p></footer>
-
-
-
-    
+    <footer class="footer">
+        Creado por Juan Pablo Echandia, Camilo Ramirez y Diego Valle. Como proyecto final del Bootcamp
+    </footer>  
+    <script src="js/scripts.js"></script>
 </body>
 </html>
