@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background: linear-gradient(to right, #9bc9cf, #fff);
     margin: 0;
     padding: 0;
@@ -9,6 +9,8 @@ body{
     text-align: center;
     margin-top: 0;
     padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2{
     text-align: center;
@@ -23,7 +25,13 @@ h2{
 .navBar ul li a{
     color: white;
     text-decoration: none;
-
+    transition: 0.3s;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+.navBar a:hover{
+    color: #333;
+    
 }
 .navBar ul{
     display: flex;
@@ -37,9 +45,8 @@ h2{
     padding: 5px;
     text-align: center;
     margin-top: 0;
+    color: white;
 }
-
-    
 
 .main-conter {
     margin: auto;
@@ -127,6 +134,7 @@ p{
     text-align: justify;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 1.2em;
 }
 
 .section{
@@ -163,4 +171,18 @@ p{
     width: 100%;
     max-width: 500px;
     height: 300px;
+}
+.section h2{
+    text-align: justify;
+    border-bottom: 2px solid #3085bd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 1.8rem;
+}
+.inicio{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
